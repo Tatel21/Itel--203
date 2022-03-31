@@ -8,23 +8,23 @@
       <form>
       <div id = "name" >
        <h2 class = "name" > Name </h2>
-        <input class = "Firstname:"> <type = "text"  name="Firstname:">
+ <input class = "Firstname:"> <type = "text"  name="Firstname:">
  <label class ="first label" >First name </label>
  <input class = "Middle Name:"> <type = "text"  name="Middle Name:">
-  <label class ="last label" >Middle Name:</label>
-  <input class = "Lastname:"> <type = "text"  name="Lastname:">
+ <label class ="last label" >Middle Name:</label>
+ <input class = "Lastname:"> <type = "text"  name="Lastname:">
  <label class ="last label" >Lastname: </label>
-  </div>
+ </div>
 
-<h2 class = "name" > Log-In</h2>
+ <h2 class = "name" > Log-In</h2>
  <label for="email">Type email:</label><br> 			
  <input type="email" id="email" name="email"><br>	
  <label for="pwd">Type Password:</label><br>		 	
  <input type="password" id="pwd" name="pwd"><br>					
 
 <h2>Type Color</h2>	
-			<label for="favcolor">Select your Favorite color:</label>
-  			<input type="color" id="favcolor" name="favcolor"><br>
+label for="favcolor">Select your Favorite color:</label>
+<input type="color" id="favcolor" name="favcolor"><br>
 			
 
 <h2 class = "name" > Phone Numbe:</h2>
@@ -33,6 +33,7 @@
 <input class = "number"> <type = "text"  name=" phone">
 <label class ="Phone number "> Cell No:</label>
 </div>
+
 <h2 class "name" > Gender</h2>
 <label for ="name"  class radio inline>
 <input type = "radio" name = "gender" value "M" 
@@ -42,7 +43,7 @@ Id = "female" > FEMALE </label>
 <input type = "radio" name = "gender" value "O" 
 Id = "other" > OTHER </label>
 
-<h2>Buttons </h2>
+ <h2>Buttons </h2>
  <input type="Button" onclick="alert('Hello World!')" value="Click Me!"><br>
  <input type="Submit" value="Submit"><br>
  <input type="Delete" value="Delete"><br>			
